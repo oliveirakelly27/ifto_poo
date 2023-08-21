@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.lang.Math;
+public class questao1
+{
+public static void main(String[] args) {
+Scanner ler = new Scanner(System.in);
+double x, cubo;
+System.out.println ("Insira um número: ");
+x = ler.nextDouble();
+cubo = Math.pow (x,3);
+System.out.println ("O valor inserido ao cubo é igual a: ");
+System.out.println(cubo);
+}
+}
