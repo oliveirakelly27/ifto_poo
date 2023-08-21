@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class questao5
+{
+public static void main(String[] args) {
+// Criando um scanner para ler as dimensões do terreno
+// a area de um retangulo é area = base * altura, que é o mesmo que
+area = comprimento * largura
+
+Scanner scanner = new Scanner(System.in);
+System.out.print("Digite o comprimento do terreno: ");
+double comprimento = scanner.nextDouble();
+System.out.print("Digite a largura do terreno: ");
+double largura = scanner.nextDouble ();
+scanner.close();
+double area = comprimento * largura;
+System.out.println("A área do terreno é: " + area);
+}
+}
