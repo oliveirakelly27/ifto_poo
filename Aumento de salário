@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class questao3 {
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+System.out.println(" Digite o salário atual do funcionário: ");
+double salarioAtual = scanner.nextDouble();
+scanner.close();
+double aumento = salarioAtual * 0.15;
+double novoSalario = salarioAtual + aumento;
+System.out.println("O novo salário com aumento de 15% é: R$ " +
+novoSalario);
+}
