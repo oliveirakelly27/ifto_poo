@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.Scanner;
+public class questao4 {
+public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+System.out.print("Digite o primeiro valor real: ");
+double valor1 = scanner.nextDouble();
+System.out.print("Digite o segundo valor real: ");
+double valor2 = scanner.nextDouble();
+scanner.close();
+double acrescimo30 = valor1 * 0.30;
+double valor1ComAcrescimo = valor1 + acrescimo30;
+double desconto25 = valor2 * 0.25;
+double valor2ComDesconto = valor2 - desconto25;
+System.out.println("Primeiro valor com acréscimo de 30%: R$ " +
+valor1ComAcrescimo);
+System.out.println("Segundo valor com desconto de 25%: R$ " +
+valor2ComDesconto);
+}
+}
