@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class questao2 {
+public static void main(String[] args) {
+double valorReais;
+final double TAXA_CAMBIO = 4.89;
+//Fiz considerando a taxa de cambio atual (06/08)
+Scanner scanner = new Scanner(System.in);
+System.out.printf("Digite o valor em reais: ");
+valorReais = scanner.nextDouble();
+scanner.close();
+double valorDolares = valorReais / TAXA_CAMBIO;
+System.out.println("Valor em dólares é: US$ " + valorDolares);
+}
